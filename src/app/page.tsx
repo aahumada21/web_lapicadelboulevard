@@ -127,8 +127,8 @@ export default function Home() {
     <div className="relative isolate min-h-screen overflow-hidden bg-transparent text-[#3d405b]">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(224,122,95,0.25),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(242,204,143,0.5),_transparent_45%),radial-gradient(circle_at_center,_rgba(129,178,154,0.25),_transparent_40%)]" />
 
-      <main className="relative z-10 mx-auto flex max-w-6xl flex-col gap-10 px-4 pb-16 pt-6 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
-        <header className="rounded-[28px] border border-[#e5dcc3] bg-white/90 px-4 py-4 shadow-lg backdrop-blur sm:rounded-full sm:px-6">
+      <main className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-10 px-0 pb-16 pt-3 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
+        <header className="rounded-none border-none bg-transparent px-4 py-4 shadow-none sm:rounded-full sm:border sm:border-[#e5dcc3] sm:bg-white/90 sm:px-6 sm:shadow-lg sm:backdrop-blur">
           <div className="mb-4 flex justify-center text-center sm:hidden">
             <Link
               href="/"
@@ -169,7 +169,7 @@ export default function Home() {
 
         <section
           id="galeria"
-          className="rounded-[32px] border border-[#e5dcc3] bg-[#f4f1de] p-5 sm:p-8"
+          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:p-8"
         >
           <div className="flex flex-col">
             <p className="text-xs uppercase tracking-[0.5em] text-[#3d405b] text-center md:text-left">
@@ -253,7 +253,7 @@ export default function Home() {
 
         <section
           id="contacto"
-          className="rounded-[32px] border border-[#e5dcc3] bg-[#f4f1de] p-5 sm:p-8"
+          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:p-8"
         >
           <div className="flex flex-col gap-2 text-center md:text-left">
             <h2 className="text-2xl font-semibold text-[#3d405b] sm:text-3xl">
@@ -284,8 +284,8 @@ export default function Home() {
 
         <section
           id="mapa"
-          className="rounded-[32px] border border-[#e5dcc3] bg-white p-5 sm:p-6"
-        >
+          className="rounded-none border-none bg-white p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:p-6"
+       >
           <div className="flex flex-col gap-2 text-center md:text-left">
             <p className="text-xs uppercase tracking-[0.5em] text-[#3d405b]">
               Google Maps
