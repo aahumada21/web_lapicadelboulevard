@@ -148,7 +148,7 @@ export default function Home() {
             </div>
             <a
               href="https://wa.me/56931710112?text=Hola%20Johanna,%20quiero%20pedir%20algo%20desde%20la%20web."
-              className="w-full inline-flex items-center justify-center gap-2 rounded-full bg-[#25d366] px-4 py-2 text-xs font-semibold text-white shadow-md transition hover:scale-105 hover:bg-[#1fb356] focus:outline-none focus:ring-4 focus:ring-[#25d366]/40 sm:w-auto sm:text-sm"
+              className="hidden sm:inline-flex sm:items-center sm:justify-center sm:gap-2 sm:rounded-full sm:bg-[#25d366] sm:px-4 sm:py-2 sm:text-xs sm:font-semibold sm:text-white sm:shadow-md sm:transition sm:hover:scale-105 sm:hover:bg-[#1fb356] sm:focus:outline-none sm:focus:ring-4 sm:focus:ring-[#25d366]/40"
             >
               <FaWhatsapp className="h-4 w-4" />
               Pedir por WhatsApp
