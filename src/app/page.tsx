@@ -262,11 +262,6 @@ export default function Home() {
                 <span aria-hidden="true">
                   <entry.icon className={`h-8 w-8 ${entry.colorClass}`} />
                 </span>
-                {entry.helper && (
-                  <p className="text-xs font-medium text-[#3d405b]">
-                    {entry.helper}
-                  </p>
-                )}
                 <p className="text-xs uppercase tracking-[0.4em] text-[#3d405b]">
                   {entry.title}
                 </p>
