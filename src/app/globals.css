@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f1de;
+  --foreground: #3d405b;
+  --accent-primary: #e07a5f;
+  --accent-secondary: #81b29a;
+  --surface: #ffffff;
+  --text-muted: #6b6f8a;
+  --highlight: #f2cc8f;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #3d405b;
+    --foreground: #f4f1de;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #f2cc8f, var(--background));
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, -apple-system, BlinkMacSystemFont;
+  position: relative;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -30%;
+  background: radial-gradient(circle at 20% 20%, rgba(224, 122, 95, 0.25), transparent 55%),
+    radial-gradient(circle at 80% 0%, rgba(129, 178, 154, 0.2), transparent 60%),
+    radial-gradient(circle at 50% 80%, rgba(242, 204, 143, 0.45), transparent 50%);
+  filter: blur(60px);
+  z-index: -1;
+  opacity: 0.8;
+  pointer-events: none;
+}
