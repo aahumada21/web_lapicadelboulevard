@@ -1,6 +1,7 @@
 'use client';
 
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 
@@ -129,12 +130,15 @@ export default function Home() {
       <main className="relative z-10 mx-auto flex max-w-6xl flex-col gap-10 px-4 pb-16 pt-6 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
         <header className="rounded-[28px] border border-[#e5dcc3] bg-white/90 px-4 py-4 shadow-lg backdrop-blur sm:rounded-full sm:px-6">
           <nav className="flex flex-col items-center gap-4 text-sm font-semibold text-[#3d405b] sm:flex-row sm:flex-wrap sm:justify-between">
-            <a
-              href="#"
-              className="text-center text-xl font-semibold tracking-wide text-[#3d405b] sm:text-left sm:text-2xl"
-            >
-              La Pica del Boulevard
-            </a>
+            <Link href="/" className="flex items-center justify-center sm:justify-start">
+              <Image
+                src="/imagenes/logo/Logo 1/Logo3.png"
+                alt="Logo La Pica del Boulevard"
+                width={72}
+                height={72}
+                className="rounded-full"
+              />
+            </Link>
             <div className="flex flex-wrap items-center justify-center gap-3 text-xs sm:justify-start sm:gap-6 sm:text-sm">
               <a className="hover:text-[#3d405b]" href="#galeria">
                 Inicio
