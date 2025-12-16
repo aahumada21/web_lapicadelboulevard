@@ -124,36 +124,36 @@ export default function Home() {
   };
 
   return (
-    <div className="relative isolate min-h-screen overflow-hidden bg-transparent text-[#3d405b]">
+    <div className="relative isolate min-h-screen overflow-hidden bg-transparent text-[#4f4537]">
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(224,122,95,0.25),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(242,204,143,0.5),_transparent_45%),radial-gradient(circle_at_center,_rgba(129,178,154,0.25),_transparent_40%)]" />
 
       <main className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-0 px-0 pb-16 pt-0 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
-        <header className="rounded-none border-none bg-white px-4 py-4 shadow-sm sm:rounded-full sm:border sm:border-[#e5dcc3] sm:bg-white/90 sm:px-6 sm:shadow-lg sm:backdrop-blur">
+        <header className="rounded-none border-none bg-white px-4 py-4 shadow-sm sm:rounded-full sm:border sm:border-[#b5aa99] sm:bg-white/90 sm:px-6 sm:shadow-lg sm:backdrop-blur">
           <div className="mb-4 flex justify-center text-center sm:hidden">
             <Link
               href="/"
-              className="text-3xl font-semibold tracking-wide text-[#3d405b]"
+              className="text-3xl font-semibold tracking-wide text-[#4f4537]"
               style={{ fontFamily: "var(--font-logo)" }}
             >
               La Pica del Boulevard
             </Link>
           </div>
-          <nav className="flex flex-col items-center gap-4 text-sm font-semibold text-[#3d405b] sm:flex-row sm:flex-wrap sm:justify-between">
+          <nav className="flex flex-col items-center gap-4 text-sm font-semibold text-[#4f4537] sm:flex-row sm:flex-wrap sm:justify-between">
             <Link
               href="/"
-              className="hidden text-2xl font-semibold tracking-wide text-[#3d405b] sm:flex sm:items-center sm:justify-start"
+              className="hidden text-2xl font-semibold tracking-wide text-[#4f4537] sm:flex sm:items-center sm:justify-start"
               style={{ fontFamily: "var(--font-logo)" }}
             >
               La Pica del Boulevard
             </Link>
             <div className="flex flex-wrap items-center justify-center gap-3 text-xs sm:justify-start sm:gap-6 sm:text-sm">
-              <a className="hover:text-[#3d405b]" href="#galeria">
+              <a className="hover:text-[#4f4537]" href="#galeria">
                 Inicio
               </a>
-              <a className="hover:text-[#3d405b]" href="#contacto">
+              <a className="hover:text-[#4f4537]" href="#contacto">
                 Contacto
               </a>
-              <a className="hover:text-[#3d405b]" href="#mapa">
+              <a className="hover:text-[#4f4537]" href="#mapa">
                 Ubicación
               </a>
             </div>
@@ -169,16 +169,16 @@ export default function Home() {
 
         <section
           id="galeria"
-          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:bg-[#f4f1de] sm:p-8"
+          className="rounded-none border-none bg-[#f2cc8f] p-4 sm:rounded-[32px] sm:border sm:border-[#b5aa99] sm:bg-[#f2cc8f] sm:p-8"
         >
           <div className="flex flex-col">
-            <p className="text-xs uppercase tracking-[0.5em] text-[#3d405b] text-center md:text-left">
+            <p className="text-xs uppercase tracking-[0.5em] text-[#4f4537] text-center md:text-left">
             </p>
           </div>
 
           <div className="mt-6">
             <div
-              className="relative overflow-hidden rounded-[28px] border border-[#e5dcc3] bg-white shadow-lg"
+              className="relative overflow-hidden rounded-[28px] border border-[#b5aa99] bg-white shadow-lg"
               onTouchStart={handleTouchStart}
               onTouchMove={handleTouchMove}
               onTouchEnd={handleTouchEnd}
@@ -206,9 +206,9 @@ export default function Home() {
                         className="object-cover"
                       />
                     </div>
-                    <figcaption className="flex items-center justify-between px-4 py-3 text-sm font-semibold text-[#3d405b]">
+                    <figcaption className="flex items-center justify-between px-4 py-3 text-sm font-semibold text-[#4f4537]">
                       {image.caption}
-                      <span className="text-xs text-[#3d405b]">●</span>
+                      <span className="text-xs text-[#4f4537]">●</span>
                     </figcaption>
                   </figure>
                 ))}
@@ -216,14 +216,14 @@ export default function Home() {
 
               <button
                 aria-label="Imagen anterior"
-                className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-[#3d405b] shadow-lg transition hover:bg-white"
+                className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-[#4f4537] shadow-lg transition hover:bg-white"
                 onClick={() => goToSlide(currentSlide - 1)}
               >
                 ‹
               </button>
               <button
                 aria-label="Imagen siguiente"
-                className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-[#3d405b] shadow-lg transition hover:bg-white"
+                className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/80 p-2 text-[#4f4537] shadow-lg transition hover:bg-white"
                 onClick={() => goToSlide(currentSlide + 1)}
               >
                 ›
@@ -240,8 +240,8 @@ export default function Home() {
                   onClick={() => goToSlide(index)}
                   className={`h-2 w-2 rounded-full transition ${
                     currentSlide === index
-                      ? "bg-[#3d405b]"
-                      : "bg-[#e5dcc3] hover:bg-[#c7ad8e]"
+                      ? "bg-[#4f4537]"
+                      : "bg-[#b5aa99] hover:bg-[#77d8bb]"
                   }`}
                 />
               ))}
@@ -253,13 +253,13 @@ export default function Home() {
 
         <section
           id="contacto"
-          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:bg-[#f4f1de] sm:p-8"
+          className="rounded-none border-none bg-[#f2cc8f] p-4 sm:rounded-[32px] sm:border sm:border-[#b5aa99] sm:bg-[#f2cc8f] sm:p-8"
         >
           <div className="flex flex-col gap-2 text-center md:text-left">
-            <h2 className="text-2xl font-semibold text-[#3d405b] sm:text-3xl">
+            <h2 className="text-2xl font-semibold text-[#4f4537] sm:text-3xl">
               Redes Sociales
             </h2>
-            <p className="text-sm text-[#3d405b] sm:text-base">
+            <p className="text-sm text-[#4f4537] sm:text-base">
             </p>
           </div>
 
@@ -268,12 +268,12 @@ export default function Home() {
               <a
                 key={entry.title}
                 href={entry.href}
-                className="flex flex-col items-center gap-3 rounded-[20px] border border-[#d5c8aa] bg-white p-5 text-[#3d405b] transition hover:border-[#3d405b]"
+                className="flex flex-col items-center gap-3 rounded-[20px] border border-[#b5aa99] bg-white p-5 text-[#4f4537] transition hover:border-[#4f4537]"
               >
                 <span aria-hidden="true">
                   <entry.icon className={`h-8 w-8 ${entry.colorClass}`} />
                 </span>
-                <p className="text-xs uppercase tracking-[0.4em] text-[#3d405b]">
+                <p className="text-xs uppercase tracking-[0.4em] text-[#4f4537]">
                   {entry.title}
                 </p>
                 <p className="text-lg font-semibold">{entry.detail}</p>
@@ -284,20 +284,20 @@ export default function Home() {
 
         <section
           id="mapa"
-          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:bg-white sm:p-6"
+          className="rounded-none border-none bg-[#f2cc8f] p-4 sm:rounded-[32px] sm:border sm:border-[#b5aa99] sm:bg-white sm:p-6"
        >
           <div className="flex flex-col gap-2 text-center md:text-left">
-            <p className="text-xs uppercase tracking-[0.5em] text-[#3d405b]">
+            <p className="text-xs uppercase tracking-[0.5em] text-[#4f4537]">
               Google Maps
             </p>
-            <h2 className="text-2xl font-semibold text-[#3d405b] sm:text-3xl">
+            <h2 className="text-2xl font-semibold text-[#4f4537] sm:text-3xl">
               Blvd. San Cristobal 815
             </h2>
-            <p className="text-sm text-[#3d405b] sm:text-base">
+            <p className="text-sm text-[#4f4537] sm:text-base">
               
             </p>
           </div>
-          <div className="mt-5 overflow-hidden rounded-[28px] border border-[#e5dcc3] shadow-lg sm:mt-6">
+          <div className="mt-5 overflow-hidden rounded-[28px] border border-[#b5aa99] shadow-lg sm:mt-6">
             <iframe
               title="Mapa La Pica del Boulevard"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.6637227941656!2d-70.76747092297533!3d-33.32760587343842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662bf8271e9f101%3A0x5ae50ad4138edba1!2sLa%20Pica%20Del%20Boulevard!5e0!3m2!1ses!2scl!4v1765892589248!5m2!1ses!2scl"
@@ -309,7 +309,7 @@ export default function Home() {
             href="https://maps.app.goo.gl/8j91tr3gQmR7sjKKA"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#3d405b]"
+            className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-[#4f4537]"
           >
             Abrir en Google Maps →
           </a>
