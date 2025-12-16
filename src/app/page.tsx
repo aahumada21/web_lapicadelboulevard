@@ -129,7 +129,7 @@ export default function Home() {
 
       <main className="relative z-10 mx-auto flex max-w-6xl flex-col gap-10 px-4 pb-16 pt-6 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
         <header className="rounded-[28px] border border-[#e5dcc3] bg-white/90 px-4 py-4 shadow-lg backdrop-blur sm:rounded-full sm:px-6">
-          <div className="mb-4 flex justify-center sm:hidden">
+          <div className="mb-4 flex justify-center text-center sm:hidden">
             <Link
               href="/"
               className="text-3xl font-semibold tracking-wide text-[#3d405b]"
@@ -158,7 +158,7 @@ export default function Home() {
               </a>
             </div>
             <a
-              href="https://wa.me/56931710112?text=."
+              href="https://wa.me/56931710112."
               className="hidden sm:inline-flex sm:items-center sm:justify-center sm:gap-2 sm:rounded-full sm:bg-[#25d366] sm:px-4 sm:py-2 sm:text-xs sm:font-semibold sm:text-white sm:shadow-md sm:transition sm:hover:scale-105 sm:hover:bg-[#1fb356] sm:focus:outline-none sm:focus:ring-4 sm:focus:ring-[#25d366]/40"
             >
               <FaWhatsapp className="h-4 w-4" />
