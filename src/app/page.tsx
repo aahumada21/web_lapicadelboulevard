@@ -169,7 +169,7 @@ export default function Home() {
 
         <section
           id="galeria"
-          className="rounded-none border-none bg-white p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:bg-[#f4f1de] sm:p-8"
+          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:bg-[#f4f1de] sm:p-8"
         >
           <div className="flex flex-col">
             <p className="text-xs uppercase tracking-[0.5em] text-[#3d405b] text-center md:text-left">
