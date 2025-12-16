@@ -125,41 +125,44 @@ export default function Home() {
 
   return (
     <div className="relative isolate min-h-screen overflow-hidden bg-transparent text-[#4f4537]">
-      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(224,122,95,0.25),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(242,204,143,0.5),_transparent_45%),radial-gradient(circle_at_center,_rgba(129,178,154,0.25),_transparent_40%)]" />
+      <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(242,204,143,0.6),_transparent_45%),radial-gradient(circle_at_bottom,_rgba(181,170,153,0.6),_transparent_55%),radial-gradient(circle_at_center,_rgba(119,216,187,0.2),_transparent_60%)]" />
 
-      <main className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-0 px-0 pb-16 pt-0 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
-        <header className="rounded-none border-none bg-white px-4 py-4 shadow-sm sm:rounded-full sm:border sm:border-[#b5aa99] sm:bg-white/90 sm:px-6 sm:shadow-lg sm:backdrop-blur">
-          <div className="mb-4 flex justify-center text-center sm:hidden">
+      <main className="relative z-10 mx-auto flex w-full max-w-5xl flex-col gap-0 px-0 pb-16 pt-0 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
+        <header className="rounded-none border-none bg-gradient-to-b from-[#f7d6a7] via-[#f2cc8f] to-transparent px-4 py-8 shadow-sm sm:rounded-[40px] sm:border sm:border-[#b5aa99] sm:bg-gradient-to-b sm:from-[#f7d6a7] sm:via-[#f5d0a4] sm:to-[#fffaf2] sm:px-8 sm:shadow-xl sm:backdrop-blur">
+          <div className="mb-5 flex flex-col items-center gap-2 text-center sm:hidden">
             <Link
               href="/"
-              className="text-3xl font-semibold tracking-wide text-[#4f4537]"
+              className="text-3xl font-semibold tracking-tight text-[#4f4537]"
               style={{ fontFamily: "var(--font-logo)" }}
             >
               La Pica del Boulevard
             </Link>
+            <p className="text-xs uppercase tracking-[0.4em] text-[#b5aa99]">
+              Churrasquería & Fuente de Soda
+            </p>
           </div>
-          <nav className="flex flex-col items-center gap-4 text-sm font-semibold text-[#4f4537] sm:flex-row sm:flex-wrap sm:justify-between">
+          <nav className="flex flex-col items-center gap-4 rounded-[28px] bg-white/85 px-4 py-3 text-sm font-semibold text-[#4f4537] shadow-sm sm:flex-row sm:flex-wrap sm:justify-between sm:bg-transparent sm:px-0 sm:py-0 sm:shadow-none">
             <Link
               href="/"
-              className="hidden text-2xl font-semibold tracking-wide text-[#4f4537] sm:flex sm:items-center sm:justify-start"
+              className="hidden text-2xl font-semibold tracking-tight text-[#4f4537] sm:flex sm:items-center sm:justify-start"
               style={{ fontFamily: "var(--font-logo)" }}
             >
               La Pica del Boulevard
             </Link>
             <div className="flex flex-wrap items-center justify-center gap-3 text-xs sm:justify-start sm:gap-6 sm:text-sm">
-              <a className="hover:text-[#4f4537]" href="#galeria">
+              <a className="rounded-full px-3 py-1 hover:bg-[#b5aa99]/30" href="#galeria">
                 Inicio
               </a>
-              <a className="hover:text-[#4f4537]" href="#contacto">
+              <a className="rounded-full px-3 py-1 hover:bg-[#b5aa99]/30" href="#contacto">
                 Contacto
               </a>
-              <a className="hover:text-[#4f4537]" href="#mapa">
+              <a className="rounded-full px-3 py-1 hover:bg-[#b5aa99]/30" href="#mapa">
                 Ubicación
               </a>
             </div>
             <a
-              href="https://wa.me/56931710112."
-              className="hidden sm:inline-flex sm:items-center sm:justify-center sm:gap-2 sm:rounded-full sm:bg-[#25d366] sm:px-4 sm:py-2 sm:text-xs sm:font-semibold sm:text-white sm:shadow-md sm:transition sm:hover:scale-105 sm:hover:bg-[#1fb356] sm:focus:outline-none sm:focus:ring-4 sm:focus:ring-[#25d366]/40"
+              href="https://wa.me/56931710112?text=Hola%20Johanna,%20quiero%20pedir%20algo%20desde%20la%20web."
+              className="hidden sm:inline-flex sm:items-center sm:justify-center sm:gap-2 sm:rounded-full sm:bg-[#25d366] sm:px-5 sm:py-2 sm:text-xs sm:font-semibold sm:text-white sm:shadow-md sm:transition sm:hover:scale-105 sm:hover:bg-[#1fb356] sm:focus:outline-none sm:focus:ring-4 sm:focus:ring-[#25d366]/40"
             >
               <FaWhatsapp className="h-4 w-4" />
               Pedir por WhatsApp
