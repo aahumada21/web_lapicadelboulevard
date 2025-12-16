@@ -130,25 +130,21 @@ export default function Home() {
       <main className="relative z-10 mx-auto flex max-w-6xl flex-col gap-10 px-4 pb-16 pt-6 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
         <header className="rounded-[28px] border border-[#e5dcc3] bg-white/90 px-4 py-4 shadow-lg backdrop-blur sm:rounded-full sm:px-6">
           <div className="mb-4 flex justify-center sm:hidden">
-            <Link href="/">
-              <Image
-                src="/imagenes/logo/Logo 1/Logo3text.png"
-                alt="Logo La Pica del Boulevard"
-                width={110}
-                height={110}
-                className="rounded-full"
-              />
+            <Link
+              href="/"
+              className="text-3xl font-semibold tracking-wide text-[#3d405b]"
+              style={{ fontFamily: "var(--font-logo)" }}
+            >
+              La Pica del Boulevard
             </Link>
           </div>
           <nav className="flex flex-col items-center gap-4 text-sm font-semibold text-[#3d405b] sm:flex-row sm:flex-wrap sm:justify-between">
-            <Link href="/" className="hidden sm:flex sm:items-center sm:justify-start">
-              <Image
-                src="/imagenes/logo/Logo 1/Logo3text.png"
-                alt="Logo La Pica del Boulevard"
-                width={90}
-                height={90}
-                className="rounded-full"
-              />
+            <Link
+              href="/"
+              className="hidden text-2xl font-semibold tracking-wide text-[#3d405b] sm:flex sm:items-center sm:justify-start"
+              style={{ fontFamily: "var(--font-logo)" }}
+            >
+              La Pica del Boulevard
             </Link>
             <div className="flex flex-wrap items-center justify-center gap-3 text-xs sm:justify-start sm:gap-6 sm:text-sm">
               <a className="hover:text-[#3d405b]" href="#galeria">
@@ -162,7 +158,7 @@ export default function Home() {
               </a>
             </div>
             <a
-              href="https://wa.me/56931710112?text=Hola%20Johanna,%20quiero%20pedir%20algo%20desde%20la%20web."
+              href="https://wa.me/56931710112?text=."
               className="hidden sm:inline-flex sm:items-center sm:justify-center sm:gap-2 sm:rounded-full sm:bg-[#25d366] sm:px-4 sm:py-2 sm:text-xs sm:font-semibold sm:text-white sm:shadow-md sm:transition sm:hover:scale-105 sm:hover:bg-[#1fb356] sm:focus:outline-none sm:focus:ring-4 sm:focus:ring-[#25d366]/40"
             >
               <FaWhatsapp className="h-4 w-4" />
