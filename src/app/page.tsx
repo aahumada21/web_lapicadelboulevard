@@ -128,7 +128,7 @@ export default function Home() {
       <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_rgba(224,122,95,0.25),_transparent_55%),radial-gradient(circle_at_bottom,_rgba(242,204,143,0.5),_transparent_45%),radial-gradient(circle_at_center,_rgba(129,178,154,0.25),_transparent_40%)]" />
 
       <main className="relative z-10 mx-auto flex w-full max-w-6xl flex-col gap-10 px-0 pb-16 pt-3 sm:gap-12 sm:px-6 lg:pb-20 lg:pt-8">
-        <header className="rounded-none border-none bg-transparent px-4 py-4 shadow-none sm:rounded-full sm:border sm:border-[#e5dcc3] sm:bg-white/90 sm:px-6 sm:shadow-lg sm:backdrop-blur">
+        <header className="rounded-none border-none bg-white px-4 py-4 shadow-sm sm:rounded-full sm:border sm:border-[#e5dcc3] sm:bg-white/90 sm:px-6 sm:shadow-lg sm:backdrop-blur">
           <div className="mb-4 flex justify-center text-center sm:hidden">
             <Link
               href="/"
@@ -169,7 +169,7 @@ export default function Home() {
 
         <section
           id="galeria"
-          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:p-8"
+          className="rounded-none border-none bg-white p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:bg-[#f4f1de] sm:p-8"
         >
           <div className="flex flex-col">
             <p className="text-xs uppercase tracking-[0.5em] text-[#3d405b] text-center md:text-left">
@@ -253,7 +253,7 @@ export default function Home() {
 
         <section
           id="contacto"
-          className="rounded-none border-none bg-[#f4f1de] p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:p-8"
+          className="rounded-none border-none bg-white p-4 sm:rounded-[32px] sm:border sm:border-[#e5dcc3] sm:bg-[#f4f1de] sm:p-8"
         >
           <div className="flex flex-col gap-2 text-center md:text-left">
             <h2 className="text-2xl font-semibold text-[#3d405b] sm:text-3xl">
