@@ -134,8 +134,8 @@ export default function Home() {
               <Image
                 src="/imagenes/logo/Logo 1/Logo3.png"
                 alt="Logo La Pica del Boulevard"
-                width={72}
-                height={72}
+                width={90}
+                height={90}
                 className="rounded-full"
               />
             </Link>
