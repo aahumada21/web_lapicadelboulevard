@@ -6,27 +6,27 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 
 const galleryImages = [
   {
-    src: "/imagenes/banners/banner_generate_v2.png",
+    src: "/imagenes/banners/banner_generate_v2fix.webp",
     alt: "Mostrador interior de La Pica del Boulevard",
     caption: "La Pica del Boulevard · Tradición en cada rincón",
   }, 
   {
-    src: "/imagenes/local/Local_Exterior_2IA.png",
+    src: "/imagenes/local/Local_Exterior_2IA.webp",
     alt: "Local exterior",
     caption: "Exterior iluminado · pedidos para llevar",
   },
   {
-    src: "/imagenes/productos/IA/Producto1_ChurrascoItaliano_IA.jpg",
+    src: "/imagenes/productos/IA/Producto1_ChurrascoItaliano_IA.webp",
     alt: "Churraso Italiano",
     caption: "Churrasco Italiano de la casa",
   },
   {
-    src: "/imagenes/productos/IA/Producto1_Chorrillana2_IA.jpg",
+    src: "/imagenes/productos/IA/Producto1_Chorrillana2_IA.webp",
     alt: "Chorillana",
     caption: "Chorrillana el favorito", 
   },
    {
-    src: "/imagenes/productos/IA/Producto1_Completo_IA.jpg",
+    src: "/imagenes/productos/IA/Producto1_Completo_IA.webp",
     alt: "Completo",
     caption: "Completo nuestro plato estrella", 
   },
