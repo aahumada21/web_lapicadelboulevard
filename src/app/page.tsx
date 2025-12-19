@@ -8,8 +8,8 @@ import { FaWhatsapp, FaInstagram, FaFacebook } from "react-icons/fa";
 const galleryImages = [
   {
     src: "/imagenes/banners/banner_generate_v2fix.webp",
-    alt: "Mostrador interior de La Pica del Boulevard",
-    caption: "La Pica del Boulevard · Tradición en cada rincón",
+    alt: "Mostrador interior de La Picá del Boulevard",
+    caption: "La Picá del Boulevard · Tradición en cada rincón",
   }, 
   {
     src: "/imagenes/local/Local_Exterior_2IA.webp",
@@ -135,7 +135,7 @@ export default function Home() {
               className="text-3xl font-semibold tracking-tight text-[#4f4537]"
               style={{ fontFamily: "var(--font-logo)" }}
             >
-              La Pica del Boulevard
+              La Picá del Boulevard
             </Link>
             <p className="text-xs uppercase tracking-[0.4em] text-[#b5aa99]">
               Churrasquería & Fuente de Soda
@@ -147,7 +147,7 @@ export default function Home() {
               className="hidden text-2xl font-semibold tracking-tight text-[#4f4537] sm:flex sm:items-center sm:justify-start"
               style={{ fontFamily: "var(--font-logo)" }}
             >
-              La Pica del Boulevard
+              La Picá del Boulevard
             </Link>
             <div className="flex flex-wrap items-center justify-center gap-3 text-xs sm:justify-start sm:gap-6 sm:text-sm">
               <a className="rounded-full px-3 py-1 hover:bg-[#b5aa99]/30" href="#galeria">

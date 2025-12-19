@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "La Pica del Boulevard | Churrascos y completos con tradición",
+  title: "La Picá del Boulevard | Churrascos y completos con tradición",
   description:
     "Johanna y su equipo preparan churrascos, completos y lomos caseros con pan amasado del día en el corazón del Boulevard.",
   keywords: [
@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     "lomitos",
     "comida rápida",
     "delivery",
-    "La Pica del Boulevard",
+    "La Picá del Boulevard",
   ],
   openGraph: {
-    title: "La Pica del Boulevard",
+    title: "La Picá del Boulevard",
     description:
       "Churrasquería y fuente de soda con sabores caseros y servicio cercano en el Boulevard.",
     locale: "es_CL",
